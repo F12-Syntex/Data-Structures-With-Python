@@ -1,6 +1,6 @@
 # Data Structures Practice
 
-This repository is created for practicing data structures using Python. The main focus currently is on trees.
+This repository is created for practising data structures using Python. The main focus currently is on trees.
 
 ## Roadmap
 
@@ -12,8 +12,6 @@ This repository is created for practicing data structures using Python. The main
 6. Implement Heap
 7. Implement Graph
 
-Feel free to modify the roadmap and add any additional data structures you want to practice.
-
 ## Checklist
 
 - [ ] Binary Tree
@@ -23,8 +21,6 @@ Feel free to modify the roadmap and add any additional data structures you want 
 - [ ] Trie
 - [ ] Heap
 - [ ] Graph
-
-Please use the checklist above to keep track of the data structures you have implemented. Once you complete implementing a data structure, mark it with an 'x'.
 
 ## Contributing
 
