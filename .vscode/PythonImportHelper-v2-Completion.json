@@ -1,0 +1,47 @@
+[
+    {
+        "label": "Node",
+        "kind": 6,
+        "importPath": "trees.binary_tree",
+        "description": "trees.binary_tree",
+        "peekOfCode": "class Node(object):\n    def __init__(self, data) -> None:\n        self.left : Node = None\n        self.right : Node = None\n        self.data = data\n    def __str__(self) -> str:\n        if self.left is not None and self.right is not None:\n            return str(self.data) + \" -> \" + str(self.left) + \" \" + str(self.right)\n        elif self.left is not None:\n            return str(self.data) + \" -> \" + str(self.left)",
+        "detail": "trees.binary_tree",
+        "documentation": {}
+    },
+    {
+        "label": "BinaryTree",
+        "kind": 6,
+        "importPath": "trees.binary_tree",
+        "description": "trees.binary_tree",
+        "peekOfCode": "class BinaryTree(object):\n    def __init__(self, data) -> None:\n        self.root = Node(data)\n    def __str__(self) -> str:\n        return str(self.root)\nbt = BinaryTree(3)\nbt.root.left = Node(1)\nbt.root.right = Node(2)\nbt.root.printPreOrder()",
+        "detail": "trees.binary_tree",
+        "documentation": {}
+    },
+    {
+        "label": "bt",
+        "kind": 5,
+        "importPath": "trees.binary_tree",
+        "description": "trees.binary_tree",
+        "peekOfCode": "bt = BinaryTree(3)\nbt.root.left = Node(1)\nbt.root.right = Node(2)\nbt.root.printPreOrder()",
+        "detail": "trees.binary_tree",
+        "documentation": {}
+    },
+    {
+        "label": "bt.root.left",
+        "kind": 5,
+        "importPath": "trees.binary_tree",
+        "description": "trees.binary_tree",
+        "peekOfCode": "bt.root.left = Node(1)\nbt.root.right = Node(2)\nbt.root.printPreOrder()",
+        "detail": "trees.binary_tree",
+        "documentation": {}
+    },
+    {
+        "label": "bt.root.right",
+        "kind": 5,
+        "importPath": "trees.binary_tree",
+        "description": "trees.binary_tree",
+        "peekOfCode": "bt.root.right = Node(2)\nbt.root.printPreOrder()",
+        "detail": "trees.binary_tree",
+        "documentation": {}
+    }
+]
