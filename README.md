@@ -16,7 +16,7 @@ Feel free to modify the roadmap and add any additional data structures you want 
 
 ## Checklist
 
-- [x] Binary Tree
+- [ ] Binary Tree
 - [ ] Binary Search Tree
 - [ ] AVL Tree
 - [ ] Red-Black Tree
